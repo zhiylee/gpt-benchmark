@@ -1,0 +1,44 @@
+# Dependencies and generated files
+node_modules/
+.next/
+out/
+dist/
+coverage/
+*.tsbuildinfo
+
+# Local environment and credentials (only the example may be committed)
+.env*
+!.env.example
+*.pem
+*.key
+*.p12
+*.pfx
+*.keystore
+.ssh/
+.aws/
+.netrc
+.npmrc
+secrets/
+
+# Local data, database sidecars, and benchmark output
+data/
+benchmark-results/
+*.db
+*.db-*
+*.sqlite
+*.sqlite-*
+*.sqlite3
+*.sqlite3-*
+
+# Local deployment artifacts, logs, and editor files
+/compose.*.yml
+/docs/deployment-*.md
+/scripts/deploy-*.sh
+releases/
+*.log
+*.bak
+*.backup
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
